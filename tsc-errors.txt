@@ -1,0 +1,3 @@
+﻿src/components/layout/Navbar.tsx(6,1): error TS6133: 'logo' is declared but its value is never read.
+src/components/ui/calendar.tsx(45,20): error TS6133: '_props' is declared but its value is never read.
+src/components/ui/calendar.tsx(46,21): error TS6133: '_props' is declared but its value is never read.

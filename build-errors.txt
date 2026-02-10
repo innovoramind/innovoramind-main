@@ -1,0 +1,113 @@
+﻿
+> innovoramind@0.0.0 build
+> tsc && vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : node:inter
+nal/process/promises:
+394
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (node:in   
+ ternal/process/p    
+romises:394:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    triggerUncaughtEx
+ception(err, true /* 
+fromPromise */);
+    ^
+
+[Failed to load 
+PostCSS config: 
+Failed to load 
+PostCSS config 
+(searchPath: 
+C:/Users/Aarav Comp/D
+esktop/innova/innovor
+amind-main): 
+[ReferenceError] 
+module is not 
+defined in ES module 
+scope
+This file is being 
+treated as an ES 
+module because it 
+has a '.js' file 
+extension and 
+'C:\Users\Aarav Comp\
+Desktop\innova\innovo
+ramind-main\package.j
+son' contains 
+"type": "module". To 
+treat it as a 
+CommonJS script, 
+rename it to use the 
+'.cjs' file 
+extension.
+ReferenceError: 
+module is not 
+defined in ES module 
+scope
+This file is being 
+treated as an ES 
+module because it 
+has a '.js' file 
+extension and 
+'C:\Users\Aarav Comp\
+Desktop\innova\innovo
+ramind-main\package.j
+son' contains 
+"type": "module". To 
+treat it as a 
+CommonJS script, 
+rename it to use the 
+'.cjs' file 
+extension.
+    at file:///C:/Use
+rs/Aarav%20Comp/Deskt
+op/innova/innovoramin
+d-main/postcss.config
+.js:1:1
+    at ModuleJob.run 
+(node:internal/module
+s/esm/module_job:377:
+25)
+    at async onImport
+.tracePromise.__proto
+__ (node:internal/mod
+ules/esm/loader:671:2
+6)
+    at async 
+importDefault (file:/
+//C:/Users/Aarav%20Co
+mp/Desktop/innova/inn
+ovoramind-main/node_m
+odules/vite/dist/node
+/chunks/dep-BK3b2jBa.
+js:33759:18)
+    at async 
+Object.search (file:/
+//C:/Users/Aarav%20Co
+mp/Desktop/innova/inn
+ovoramind-main/node_m
+odules/vite/dist/node
+/chunks/dep-BK3b2jBa.
+js:25915:23)]
+
+Node.js v24.11.1
